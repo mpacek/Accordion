@@ -1,6 +1,6 @@
 # Accordion v.0.1.0
 
-jQuery helper plugin, opens accrodion container.
+jQuery helper plugin, opens accorodion container.
 
 **Requirements:**
 
