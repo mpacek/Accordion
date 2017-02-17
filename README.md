@@ -16,14 +16,12 @@ jQuery helper plugin, opens accorodion container.
 ```
 
 ``` JavaScript
-if ($.fn.scrolltoSetup) {
-  $('.js-accordion').scrolltoSetup({
-    openClass: 'is-open',
-    buttonClass: '.accordion-opener',
-    containerClass: '.accordion-container',
-    onlyOnMobile: false
-	});
-}
+$('.js-accordion').accordionSetup({
+  openClass: 'is-open',
+  buttonClass: '.accordion-opener',
+  containerClass: '.accordion-container',
+  onlyOnMobile: false
+});
 ```
 
 Copyright 2015 Michał Pacek
